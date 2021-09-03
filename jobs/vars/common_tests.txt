@@ -1,0 +1,11 @@
+
+def build_setRegression(String currentJobName, String env, String bitBucketBranch, String featureFilePath, String strTags, String testSet, String strBrowser){
+   parallel([
+			"ContractTestCase.feature" : {
+				build job: 'Sample_Base_Job', parameters: [string(name: 'Environment', value: env), string(name: 'Branch', value: bitBucketBranch), string(name: 'FeatureFilePath', value: featureFilePath), string(name: 'FeatureFile', value: 'ContractTestCase.feature'), string(name:'JobName',value:currentJobName),string(name:'TestSet',value:testSet),string(name:'Tags',value:strTags),string(name:'Browser',value:strBrowser)], propagate: true
+			}
+		])
+	}
+
+
+return this

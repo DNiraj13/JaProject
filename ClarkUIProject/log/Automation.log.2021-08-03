@@ -1,0 +1,113 @@
+[INFO] 2021-08-03 17:20:58,309 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 17:20:59,396 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 17:20:59,508 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 17:21:06,101 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 17:21:06,246 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 17:21:49,534 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 17:22:47,302 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 17:22:47,566 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 17:22:47,606 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 17:22:51,919 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 17:22:51,959 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 17:23:15,627 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 18:15:19,597 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 18:15:19,876 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 18:15:19,950 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 18:15:24,506 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 18:15:24,548 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 18:16:05,119 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 18:16:53,014 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 18:16:53,149 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 18:16:53,174 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 18:16:56,595 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 18:16:56,617 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 18:17:19,998 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:29:18,747 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:29:19,023 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:29:19,041 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:29:21,630 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:29:21,642 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:29:39,244 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:29:48,266 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:29:48,413 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:29:48,436 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:29:51,006 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:29:51,020 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:30:08,650 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:34:57,893 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:34:58,188 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:34:58,217 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:35:00,873 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:35:00,885 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:35:26,387 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:35:41,434 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:35:41,625 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:35:41,644 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:35:44,040 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:35:44,049 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:36:00,863 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:43:56,803 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:43:56,971 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:43:56,991 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:43:59,521 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:43:59,536 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:44:22,180 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 19:44:41,735 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 19:44:41,919 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 19:44:41,955 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 19:44:45,109 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 19:44:45,117 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 19:45:07,407 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 20:46:32,698 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:46:33,244 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 20:46:33,340 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 20:46:37,766 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 20:46:37,791 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 20:47:12,978 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:47:13,365 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 20:47:13,420 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 20:47:17,224 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 20:47:17,240 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 20:50:03,943 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:50:37,239 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:50:37,501 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 20:50:37,517 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 20:50:43,376 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 20:50:43,400 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 20:51:07,270 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 20:53:58,704 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:53:59,226 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 20:53:59,290 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 20:54:04,793 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 20:54:04,817 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 20:54:39,944 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 20:55:01,982 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 20:55:02,253 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 20:55:02,293 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 20:55:06,294 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 20:55:06,310 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 21:00:31,595 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:00:32,139 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 21:00:32,179 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 21:00:36,303 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 21:00:36,319 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 21:01:04,406 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 21:01:27,105 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:02:19,677 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:02:20,181 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 21:02:20,245 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 21:02:44,659 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:02:44,942 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 21:02:44,974 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 21:04:03,694 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:04:04,027 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 21:04:04,075 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 21:04:07,380 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 21:04:07,400 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 21:04:31,412 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials
+[INFO] 2021-08-03 21:05:12,151 pageobjects.ContractsPage acceptCookies - User clicked on Akzeptieren
+[INFO] 2021-08-03 21:05:12,448 pageobjects.ContractsPage selectMenu - User clicked on menu:Angebote
+[INFO] 2021-08-03 21:05:12,504 pageobjects.ContractsPage selectInsuranceTypes - User click on:Privathaftpflicht
+[INFO] 2021-08-03 21:05:16,015 pageobjects.ContractsPage selectInsuranceTypes - user click on Loslegen
+[INFO] 2021-08-03 21:05:16,031 pageobjects.RequestSelectionCategoryPage userRequestSelection - User select the FamilyOption and RenteOption
+[INFO] 2021-08-03 21:05:40,177 pageobjects.RequestSelectionCategoryPage authenticateUserUseRobot - User enters the basic authentication credentials

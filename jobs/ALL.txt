@@ -1,0 +1,27 @@
+
+def call(String environment, String bitBucketBranch, String testset, String strTags, String Browser) {
+   def currentJobName=env.JOB_NAME
+   def featureFilePath="src/test/resources/cucumber/"
+   def agentLabel="any"
+   node(agentLabel){
+     checkout scm
+   	 def caller = load "jobs/vars/common_tests"
+   	 stage(testset)
+     		{ parallel(
+     			'Regression1':{
+                  catchError{
+                   switch(environment) {
+                    case "testing":
+                      caller.build_setRegression(currentJobName, environment, bitBucketBranch, featureFilePath, strTags, testset, Browser)
+                      break
+                    case "Prod":
+                      caller.build_setRegression(currentJobName, environment, bitBucketBranch, featureFilePath, strTags, testset, Browser)
+                      break
+                             }
+                         }
+                     }
+     				)   }
+
+   }
+}
+return this

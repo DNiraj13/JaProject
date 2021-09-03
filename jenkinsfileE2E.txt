@@ -1,0 +1,63 @@
+pipeline{
+ agent any
+ options {
+ 		buildDiscarder(logRotator(daysToKeepStr: '3')) }
+ parameters {
+       choice(choices: 'master\njbranch', description: 'Git Branch', name: 'Branch')
+ 	  extendedChoice defaultValue: 'NO', description: '', multiSelectDelimiter: ',', name: 'TriggerBuild', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_RADIO', value: 'YES,NO', visibleItemCount: 2
+ 	  extendedChoice defaultValue: 'headlessChrome', description: '', multiSelectDelimiter: ',', name: 'Browser', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_RADIO', value: 'headlessChrome,Chrome', visibleItemCount: 2
+ 	  extendedChoice defaultValue: '', description: '', multiSelectDelimiter: ',', name: 'Testing', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_CHECKBOX', value: 'ALL', visibleItemCount: 8
+ 	  extendedChoice defaultValue: '', description: '', multiSelectDelimiter: ',', name: 'Production', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_CHECKBOX', value: 'ALL', visibleItemCount: 8 }
+
+ tools { maven 'Maven'}
+ stages {
+  stage ('Initialize') {
+              steps {
+                  script {
+                      currentBuild.displayName = "Sample-Test-#${BUILD_NUMBER}"}
+                   }
+             }
+  stage ('Build') {
+  		      when{ expression { params.TriggerBuild == 'YES' } }
+                steps {
+  				    catchError{
+  						echo 'Build was choosen and New build is happening....'
+  						build job: 'Sample_Build_Job', parameters: [string(name: 'Branch', value: Branch)]
+  					}
+  				}
+          }
+  stage ('Test Env Execution') {
+  			when{ expression { !params.Testing.isEmpty() } }
+  				steps {
+  						echo params.Testing
+  						script{
+  							def arrValues = params.Testing.split(',')
+  							def environment = "testing"
+  							for (String strValue : arrValues)
+  							switch(strValue) {
+  								case "ALL":
+  									catchError{
+  										testbuild("jobs/ALL",environment,Branch,"Test_ALL","Default",Browser)
+  									}
+  									break
+  							}
+  						}
+  				}
+  		}
+
+  def testbuild(String job, String environment, String branch, String testset, String tags, String Browser){
+
+  		def specific_pipeline
+
+  		specific_pipeline = load job
+
+  		specific_pipeline.call(environment, branch, testset, tags, Browser)
+
+  }
+
+
+
+ }
+
+
+}
