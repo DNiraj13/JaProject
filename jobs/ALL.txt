@@ -5,7 +5,7 @@ def call(String environment, String bitBucketBranch, String testset, String strT
    def agentLabel= "master"
    node(agentLabel){
      checkout scm
-   	 def caller = load "jobs/vars/common_tests"
+   	 def caller = load "jobs/vars/common_tests.txt"
    	 stage(testset)
      		{ parallel(
      			'Regression1':{
