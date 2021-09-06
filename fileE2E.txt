@@ -3,7 +3,7 @@ pipeline{
  options {
  		buildDiscarder(logRotator(daysToKeepStr: '3')) }
  parameters {
-       choice(choices: 'master\njbranch', description: 'Git Branch', name: 'Branch')
+       choice(choices: 'main\nmaster', description: 'Git Branch', name: 'Branch')
  	  extendedChoice defaultValue: 'NO', description: '', multiSelectDelimiter: ',', name: 'TriggerBuild', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_RADIO', value: 'YES,NO', visibleItemCount: 2
  	  extendedChoice defaultValue: 'headlessChrome', description: '', multiSelectDelimiter: ',', name: 'Browser', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_RADIO', value: 'headlessChrome,Chrome', visibleItemCount: 2
  	  extendedChoice defaultValue: '', description: '', multiSelectDelimiter: ',', name: 'Testing', quoteValue: false, saveJSONParameterToFile: false, type: 'PT_CHECKBOX', value: 'ALL', visibleItemCount: 8
