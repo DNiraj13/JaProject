@@ -16,9 +16,9 @@ pipeline {
     script{
  	  withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']){
  							sh '''
-           echo "FIND THE VALUES:"
-           echo "$(pwd)"
-           echo "$(ls)"
+           echo 'FIND THE VALUES:'
+           echo '$(pwd)'
+           echo '$(ls)'
  							   mvn clean package -f ClarkUIProject/pom.xml
  							'''
  							} }  }   }
