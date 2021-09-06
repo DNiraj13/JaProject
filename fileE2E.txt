@@ -37,7 +37,7 @@ pipeline{
   							switch(strValue) {
   								case "ALL":
   									catchError{
-  										testbuild("jobs/ALL",environment,Branch,"Test_ALL","Default",Browser)
+  										testbuild("jobs/ALL.txt",environment,Branch,"Test_ALL","Default",Browser)
   									}
   									break
   							}
