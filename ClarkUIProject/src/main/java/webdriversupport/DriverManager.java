@@ -24,8 +24,10 @@ public class DriverManager {
     ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>(){
         @Override
         protected WebDriver initialValue() {
-            try{
-                browser=new PropertyReaders().readProperty("BROWSER");
+            try{ if(System.getProperty("browser")!=null){
+                    browser=System.getProperty("browser");
+                 }else{
+                browser=new PropertyReaders().readProperty("BROWSER");}
             }catch (IOException e){
                 e.printStackTrace();
             }
