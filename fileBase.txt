@@ -6,9 +6,11 @@ def JobName="${params.'JobName'}"
 def TestSet="${params.'TestSet'}"
 def Tags="${params.'Tags'}"
 def Browser="${params.'Browser'}"
+def agentLabel="master"
 
 pipeline {
- agent any
+ agent{
+            label "${agentLabel}" }
  options {
 		buildDiscarder(logRotator(daysToKeepStr: '3'))}
  tools {
@@ -19,7 +21,7 @@ pipeline {
     script {
        currentBuild.displayName = "${Environment}-${FeatureFile}-SampleTests-#${BUILD_NUMBER}"}
        withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']){
-       					sh '''
+       					bat '''
        						echo "Initialize : Install browser and jdk"
 
        						# Install chrome.
@@ -63,7 +65,7 @@ pipeline {
            		}else {
            		CucumberOptionsVar = "${FeatureFilePath}${FeatureFile}"}
            		echo "${CucumberOptionsVar}"
-           		sh '''
+           		bat '''
            		  echo "Build and Test Stage : Build file not required from s3"
                  mvn clean install -f tenx-web-automation/pom.xml -Denvironment="'''+Environment+'''" -Dbrowser="'''+Browser+'''" -Dcucumber.options="'''+CucumberOptionsVar+'''"
                  if [ -s 'ClarkUIProject/target/ClarkProject-1.0-SNAPSHOT.jar' ]; then
