@@ -44,6 +44,9 @@ pipeline{
   						}
   				}
   		}
+    
+    }
+}    
 
   def testbuild(String job, String environment, String branch, String testset, String tags, String Browser){
 
@@ -54,10 +57,3 @@ pipeline{
   		specific_pipeline.call(environment, branch, testset, tags, Browser)
 
   }
-
-
-
- }
-
-
-}
