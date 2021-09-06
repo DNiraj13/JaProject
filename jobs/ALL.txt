@@ -2,7 +2,7 @@
 def call(String environment, String bitBucketBranch, String testset, String strTags, String Browser) {
    def currentJobName=env.JOB_NAME
    def featureFilePath="src/test/resources/cucumber/"
-   def agentLabel="any"
+   def agentLabel= any
    node(agentLabel){
      checkout scm
    	 def caller = load "jobs/vars/common_tests"
