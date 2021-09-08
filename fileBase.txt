@@ -21,7 +21,7 @@ pipeline {
     script {
        currentBuild.displayName = "${Environment}-${FeatureFile}-SampleTests-#${BUILD_NUMBER}"}
        withEnv(['PATH+EXTRA=/usr/sbin:/usr/bin:/sbin:/bin']){
-       					bat '''
+       					sh '''
        						echo "Initialize : Install browser and jdk"
 
        						# Install chrome.
