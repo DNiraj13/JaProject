@@ -45,7 +45,7 @@ pipeline {
            		echo "${CucumberOptionsVar}"
            		bat '''
            		  echo "Build and Test Stage : Build file not required from s3"
-                 mvn clean install -f tenx-web-automation/pom.xml -Denvironment="'''+Environment+'''" -Dbrowser="'''+Browser+'''" -Dcucumber.options="'''+CucumberOptionsVar+'''"
+                 mvn clean install -f ClarkUIProject/pom.xml -Denvironment="'''+Environment+'''" -Dbrowser="'''+Browser+'''" -Dcucumber.options="'''+CucumberOptionsVar+'''"
                  if [ -s 'ClarkUIProject/target/ClarkProject-1.0-SNAPSHOT.jar' ]; then
                  	echo "Result Upload to S3 : Build file generated properly to push"
                  	else
